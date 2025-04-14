@@ -1,11 +1,9 @@
-
 const Hero = () => {
-  return (
-    <div className="bg-gradient-to-br from-purple-700 via-pink-600 to-blue-500 text-white py-16">
+  return <div className="bg-gradient-to-br from-purple-700 via-pink-600 to-blue-500 text-white py-16">
       <div className="container mx-auto px-4 text-center">
-        <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
-          El problema no es tu producto, es tu sistema de ventas.
-        </h1>
+        <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">El problema no es tu producto, es tu sistema de ventas.
+
+      </h1>
         
         <p className="text-xl md:text-2xl mb-8 max-w-3xl mx-auto">
           Hola, soy Juan Camilo de El Pautero...
@@ -48,17 +46,12 @@ const Hero = () => {
             Si quieres dejar de vender por suerte y empezar a vender por sistema...
           </p>
           <div className="mt-6">
-            <a 
-              href="#contacto" 
-              className="inline-block bg-white text-pink-600 hover:bg-pink-100 transition-colors px-8 py-3 rounded-full font-bold shadow-lg transform hover:-translate-y-1 hover:shadow-xl"
-            >
+            <a href="#contacto" className="inline-block bg-white text-pink-600 hover:bg-pink-100 transition-colors px-8 py-3 rounded-full font-bold shadow-lg transform hover:-translate-y-1 hover:shadow-xl">
               → Quiero vender más
             </a>
           </div>
         </div>
       </div>
-    </div>
-  );
+    </div>;
 };
-
 export default Hero;
